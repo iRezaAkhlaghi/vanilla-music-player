@@ -1,0 +1,118 @@
+*,*::before,*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+   
+}
+
+body{
+ background-color: #2C3E50;
+ font-family: Poppins , sans-serif;
+}
+
+.Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 80px;
+}
+
+.Btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Btns button {
+    background-color: #2C3E50;
+    border: none;
+}
+
+.title {
+    color: #BDC3C7;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.artist {
+    color: #3498DB;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.range {
+    -webkit-appearance: none;
+    width: 400px;
+    height: 6px;
+    background: #444;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+
+  .range::-webkit-slider-runnable-track {
+    height: 6px;
+    background: linear-gradient(to right, #F39C12 0%, #F39C12 var(--progress), #666 var(--progress), #666 100%);
+    border-radius: 5px;
+  }
+  
+  .range::-moz-range-track {
+    height: 6px;
+    background: #666;
+    border-radius: 5px;
+  }
+  
+ 
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px #000;
+    margin-top: -4px;
+  }
+  
+  .range::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+  }
+
+  .Cover {
+    border-radius: 50%;
+    width: 400px;
+  }
+
+  button {
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+
+  button svg {
+    width: 36px;
+    height: 36px;
+    fill: #fff;
+  }
+  

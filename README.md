@@ -13,7 +13,7 @@ It lets users play, pause, and navigate through multiple songs with a stylish in
 - ⏮️ Previous and Next buttons
 - 🎧 Song title, artist, and cover display
 - 📊 Progress bar that updates with the song
-- 🎯 Responsive and easy to customize
+
 
 ---
 🧠 Concepts Used
